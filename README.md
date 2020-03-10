@@ -3,6 +3,7 @@
 # Description
 This is the README file for the OMTP Course repository created by Group 864.
 It is assumed that the user operating system is Ubuntu 18.04.
+It's also assumed that the "Lecture 1" folder files are downloaded.
 
 ### Prerequisites
 #### ROS Melodic: 
