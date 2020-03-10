@@ -11,21 +11,21 @@ Follow instructions in: http://wiki.ros.org/melodic/Installation/Ubuntu
 #### catkin toolbox
 
 #### Gazebo 9.12 with dependensies: 
-$ sudo apt install ros-melodic-gazebo-ros-control
-$ sudo apt install ros-melodic-gazebo-msgs
-$ sudo apt install ros-melodic-gazebo-plugins
-$ sudo apt install ros-melodic-ros-controllers
+* $ sudo apt install ros-melodic-gazebo-ros-control
+* $ sudo apt install ros-melodic-gazebo-msgs
+* $ sudo apt install ros-melodic-gazebo-plugins
+* $ sudo apt install ros-melodic-ros-controllers
 
 #### MoveIt with other plugins and packages: 
-$ sudoapt install ros-melodic-moveit
-$ sudoapt install ros-melodic-trac-ik-kinematics-plugin
+* $ sudoapt install ros-melodic-moveit
+* $ sudoapt install ros-melodic-trac-ik-kinematics-plugin
 
 #### rosdep with dependensies:
-$ rosdep update
+* $ rosdep update
 
 From the root of your catkin workspace run: 
-$ rosdep check--from-paths . --ignore-src --rosdistromelodic
-$ rosdep install--from-paths . --ignore-src --rosdistromelodic
+* $ rosdep check--from-paths . --ignore-src --rosdistromelodic
+* $ rosdep install--from-paths . --ignore-src --rosdistromelodic
 
 
 ### Installing
