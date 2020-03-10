@@ -13,6 +13,30 @@
   <xacro:robot_pedestal_urdf pedestal_prefix="robot1_" pedestal_parent="world_interface" pedestal_height="0.95">
     <origin xyz="0.5 1.8 0.0" rpy="0 0 0"/>
   </xacro:robot_pedestal_urdf>
+  
+  <!-- simple shape -->
+  <xacro:property name="h" value="1.8" />
+  <xacro:property name="l" value="0.5" />
+  <xacro:property name="d" value="0.2" />
+  
+  <material name="green">
+    <color rgba="0 1 0 1"/>
+  </material>
+  <link name="SimpleShape" >
+    <visual>
+    <geometry>
+     <box size="${l} ${d} ${h}"/>
+    </geometry>
+    <origin rpy="0 0 0" xyz="${l/2} ${d/2} 0"/>
+    <material name="green"/>
+    <collision>
+        <geometry>
+            <box size="${l} ${d} ${h}"/>
+        </geometry>
+    </collision>
+    </visual>
+  </link>
+  
 
   <!-- Robot1 -->
   <xacro:include filename="$(find ur_description)/urdf/ur10.urdf.xacro"/>
@@ -31,6 +55,13 @@
   <joint name="world_interface_to_world" type="fixed">
     <parent link="world" />
     <child link="world_interface" />
+  </joint>
+
+ <!-- SimpleShape to world. -->
+  <joint name="SimpleShape_to_world_interface" type="fixed">
+    <parent link="world_interface" />
+    <child link="SimpleShape" />
+    <origin xyz="-3 -0.5 0.0" rpy="0.0 0.0 0.0"/>
   </joint>
 
   <!-- robot1-pedestal to world. -->
