@@ -35,5 +35,7 @@ From the root of your catkin workspace run:
 
 ## Authors
 Daniela Pinto - danielapinto
+
 Giorgio Frego - Gekogio
+
 Vivian Li - LiWeiAn
