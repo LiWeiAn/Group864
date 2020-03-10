@@ -47,7 +47,8 @@
   <!-- Robot1 -->
   <xacro:include filename="$(find ur_description)/urdf/ur10.urdf.xacro"/>
   <xacro:ur10_robot prefix="robot1_" joint_limited="true"/>
-
+  <xacro:ur10_robot prefix="robot2_" joint_limited="true"/>
+  
   <!-- Vacuum Gripper1 -->
   <xacro:include filename="$(find omtp_support)/urdf/vacuum_gripper/vacuum_gripper.urdf.xacro"/>
   <xacro:vacuum_gripper_urdf prefix="vacuum_gripper1_" joint_prefix="vacuum_gripper1_joint"/>
