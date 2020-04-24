@@ -1,0 +1,6 @@
+use robot 1
+go R1Home
+go R1PreGrasp
+go down 0.1
+go R1Place
+go up 0.2
