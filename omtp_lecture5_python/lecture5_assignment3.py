@@ -69,7 +69,7 @@ def lecture5_assignment3():
 
     # Manual offsets because we don't have a camera to detect objects yet.
     # Create an x-offset of -5cm to the current x position.
-    new_robot2_eef_pose.position.x = current_robot2_pose.pose.position.x - 0.5
+    new_robot2_eef_pose.position.x = current_robot2_pose.pose.position.x - 0.05
     # Create a y-offset of +10cm to the current y position.
     new_robot2_eef_pose.position.y = current_robot2_pose.pose.position.y + 0.1
     # Create a z-offset of -10cm to the current z position.
@@ -80,13 +80,13 @@ def lecture5_assignment3():
 
     # Update the list of waypoints.
     # First add the new desired pose of the end effector for robot2.
-    waypoints.append(new_robot2_eef_poseew)
+    waypoints.append(new_robot2_eef_pose)
 
     rospy.loginfo('Cartesian path - Waypoint 1:')
     print(new_robot2_eef_pose.position)
 
     # Then go back to the pose where we started the linear motion from.
-    waypoints.append(current_robot2_pose)
+    waypoints.append(current_robot2_pose.pose)
 
     rospy.loginfo('Cartesian path - Waypoint 2:')
     print(current_robot2_pose.pose.position)
