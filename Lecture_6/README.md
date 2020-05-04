@@ -16,5 +16,6 @@ Replace the launch file "spawn_static_world_objects.launch" with the same file i
 You need to spawn the object with rosservice call /spawn_object_once 
 * Run $ roslaunch omtp_lecture6 lecture6_assignment1.launch
 * Run $ rosrun omtp_lecture6 assign4.py 
+
 ![](gifs/assignment4.gif)
 
