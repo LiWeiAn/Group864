@@ -30,7 +30,11 @@ From the root of your catkin workspace run:
 
 
 ### Installing
-
+In order to test the files, follow the following procedure
+* Create a catkin workspace (`mkdir G864catkin_ws/src -p`)
+* Clone the repository into the src folder of your catkin workspace
+* Build the catkin workspace (`catkin build` inside the `G864catkin_ws` folder)
+* Source the catkin workspace (`source devel/setup.bash` inside the `G864catkin_ws` folder)
 
 
 
