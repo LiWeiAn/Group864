@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<behavior name="Grasp an object with robot1">
+
+	<executable package_path="omtp_factory_flexbe_behaviors.grasp_an_object_with_robot1_sm" class="Graspanobjectwithrobot1SM" />
+	<tagstring>robot1, home</tagstring>
+	<author>Vivian Li</author>
+	<date>Thu May 07 2020</date>
+	<description>
+		This behaviour will make robot1 go to its home position. When an object is detected from the conveyor, the robot will pick it up and go to the configured place position.
+	</description>
+
+
+	<!-- Contained Behaviors -->
+
+	<!-- Available Parameters -->
+
+</behavior>
