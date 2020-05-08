@@ -20,6 +20,7 @@
 * Load the behavior "grasp_an_object_with_robot1" in the FlexBE app and press "execute"
 * When the robot reaches the state "Detect object on conveyor" run $ rosservice call /start_spawn 
 
+Video link: https://drive.google.com/open?id=1lLtQJJzJCLXGn5u6Oca1Uk3hT1vpd9JK 
 
 
 
