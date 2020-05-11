@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<behavior name="Pick_and_release_part_from_conveyor_with_robot1">
+
+	<executable package_path="omtp_factory_flexbe_behaviors.pick_and_release_part_from_conveyor_with_robot1_sm" class="Pick_and_release_part_from_conveyor_with_robot1SM" />
+	<tagstring>pick,robot1,conveyor,factory</tagstring>
+	<author>Giorgio Frego</author>
+	<date>Sun May 10 2020</date>
+	<description>
+		This behaviour will make robot 1 pick a part from the conveyor in our factory
+	</description>
+
+
+	<!-- Contained Behaviors -->
+
+	<!-- Available Parameters -->
+
+</behavior>
