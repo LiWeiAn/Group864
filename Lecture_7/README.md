@@ -28,4 +28,9 @@ Video link: https://drive.google.com/open?id=1lLtQJJzJCLXGn5u6Oca1Uk3hT1vpd9JK
 
 
 ## Assignment 1 - Giorgio
-
+* Clone folders/files and replace/overwrite folders (as described above)
+* Run $ roslaunch omtp_gazebo omtp_pick_demo.launch
+* unpause the simulation
+* run $ rosservice call /start_spawn
+* Run $ roslaunch flexbe_app flexbe_full.launch 
+* Load the behavior "pick_and_release_part_from_conveyor_with_robot1" in the FlexBE app and press "execute"
