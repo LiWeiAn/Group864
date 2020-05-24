@@ -1,4 +1,6 @@
 # Assignment for Lecture 9
+
+## Description
 Make Python >=3.5 virtual environment called "env" (can be changed):
 ```
 virtualenv -p python3 env
@@ -22,7 +24,7 @@ https://stable-baselines.readthedocs.io/en/master/guide/install.html5.
 Train the model:
 ```
 Run assignment1.py
-set train_model = False
+set train_model = True
 ```
 
 Test the model:
