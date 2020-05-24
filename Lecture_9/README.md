@@ -4,7 +4,7 @@ Make Python >=3.5 virtual environment called "env" (can be changed):
 virtualenv -p python3 env
 ```
 
-Install OpenAIgym, follow:
+Install OpenAI gym, follow:
 ```
 https://github.com/openai/gym#installation3.
 ```
@@ -41,9 +41,9 @@ tensorboard --logdir ./logs
 ![](gifs/dqn_graph.png)
 
 
-Timesteps: 50000    | Timesteps: 100000    | Timesteps: 150000
+|Timesteps: 50000    | Timesteps: 100000    | Timesteps: 150000|
 | --- | --- |
-![](gifs/50000.gif) | ![](gifs/100000.gif) | ![](gifs/150000.gif)
+|![](gifs/50000.gif) | ![](gifs/100000.gif) | ![](gifs/150000.gif)|
 
 
 
