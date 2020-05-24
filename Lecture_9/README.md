@@ -1,34 +1,37 @@
 # Assignment for Lecture 9
-*Make Python >=3.5 virtual environment
+Make Python >=3.5 virtual environment called "env" (can be changed):
+```
+virtualenv -p python3 env
+```
 
-*Install OpenAIgym:
+Install OpenAIgym, follow:
 ```
 https://github.com/openai/gym#installation3.
 ```
 
-*Install tensorflow+tensorboard<=1.15.04.
+Install tensorflow+tensorboard<=1.15.04, follow:
 ```
 https://www.tensorflow.org/install/pip
 ```
 
-*Install Stable-Baselines, follow:
+Install Stable-Baselines, follow:
 ```
-*https://stable-baselines.readthedocs.io/en/master/guide/install.html5.
+https://stable-baselines.readthedocs.io/en/master/guide/install.html5.
 ```
 
-*Train the model
+Train the model:
 ```
 Run assignment1.py
 set train_model = False
 ```
 
-*Test the model
+Test the model:
 ```
 Run assignment1.py 
 set train_model = False
 ```
 
-*Observe the training with TensorBoard
+Observe the training with TensorBoard
 ```
 tensorboard --logdir ./logs
 ```
@@ -39,6 +42,7 @@ tensorboard --logdir ./logs
 
 
 Timesteps: 50000    | Timesteps: 100000    | Timesteps: 150000
+| --- | --- |
 ![](gifs/50000.gif) | ![](gifs/100000.gif) | ![](gifs/150000.gif)
 
 
