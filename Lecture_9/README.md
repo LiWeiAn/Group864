@@ -35,18 +35,18 @@ Observe the training with TensorBoard
 ```
 tensorboard --logdir ./logs
 ```
-##Graph
+## Graph
 
 ![](gifs/dqn_graph.png)
 
 
-## GIF for timesteps: 50000
-|![](gifs/50000.gif)
+### GIF for timesteps: 50000
+![](gifs/50000.gif)
 
-## GIF for timesteps: 100000
+### GIF for timesteps: 100000
 ![](gifs/100000.gif)
 
-## GIF for timesteps: 150000
+### GIF for timesteps: 150000
 ![](gifs/150000.gif)
 
 
