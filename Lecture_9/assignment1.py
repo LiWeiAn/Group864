@@ -9,7 +9,7 @@ model = DQN(MlpPolicy, env, verbose=1, tensorboard_log='./logs')
 
 # Set whether to train or test
 train_model = True
-model_filename = 'dqn_cartpole_50000'
+model_filename = 'dqn_cartpole_100000'
 
 
 # Train model
