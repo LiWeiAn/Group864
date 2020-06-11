@@ -10,7 +10,7 @@ This is the assignments for lecture 5 of the OMTP course. The topic of this assi
 ## Assignment 2
 * Start the demo simulation `$ roslaunch omtp_moveit_config demo.launch`
 * Start the MoveIt command line `$ rosrun moveit_commander moveit_commander_cmdline.py`
-* Execute the `moveit_commander_assign2` script by using the command `load moveit_commander_ex2` in the MoveIt command line.
+* Execute the `moveit_commander_ex2` script located in `omtp_moveit_config/launch/moveit_commander_ex2` by using the command `load moveit_commander_ex2` in the MoveIt command line.
 
 ## Assignment 3
 * Start the factory simulation in gazebo `$ roslaunch omtp_lecture5 omtp_lecture5_environment.launch`
