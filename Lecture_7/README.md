@@ -1,4 +1,6 @@
 # Assignments for Lecture 7
+This assignment is for lecture 7 of the OMTP course. The topic of the assignment is about using state machines to control a robot (in a simulation), by creating different behaviors(states) in the program FlexBE. The robot performs a sequence of behaviors to perform a task. 
+Assignmet 1 is about designing a robot behaviors in FlexBE, and creating a sequence of behviors (state machine). The task is to make a robot pick up an object, which is detected by a camera. The object is spawned on a conveyor belt, which moves the object towards the robot. When the object is detected by the camera, the robot knows the position of the object, and it is able to pick it up.
 
 ## Assignment 1 - Overall description:
 To install FlexBE run 
