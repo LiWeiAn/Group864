@@ -54,4 +54,4 @@ Video link: https://drive.google.com/open?id=1lLtQJJzJCLXGn5u6Oca1Uk3hT1vpd9JK
 * Run `$ roslaunch flexbe_app flexbe_full.launch `
 * Load the behavior `"pick_and_release_part_from_conveyor_with_robot1"` in the FlexBE app and press "execute"
 
-Video link: https://drive.google.com/open?id=1iVsFwOrZ-ZILrKragRX4nGlFxZV4XEsf
+Video link: https://drive.google.com/file/d/1BfeUnjDWuPcq25mKfeV3sDsb-3Fh6wVL/view?usp=sharing
