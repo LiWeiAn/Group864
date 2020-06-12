@@ -9,4 +9,4 @@ This assignment is from lecture 8 of the OMTP course. The assignment is about us
 
 ## Assignment - Daniela
 
-
+![](mask_Daniela.gif)
